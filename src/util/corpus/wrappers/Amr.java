@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Stack;
 import java.util.TreeMap;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  *
@@ -80,7 +82,11 @@ public class Amr
         // Treating opening and closing brackets as separate tokens and adding a dummy ":TOP" argument.
         rawStr = rawStr.replaceAll("\\(", "( ").replaceAll("\\)", " )").replaceAll(" +", " ");
         rawStr = ":TOP "+rawStr;
-        String[] parts = rawStr.split(" ");
+        Matcher m = Pattern.compile("([^\"]\\S*|\".+?\")\\s*").matcher(rawStr);
+        List<String> partList = new ArrayList<>();
+        while (m.find())
+            partList.add(m.group(1));
+        String[] parts = partList.toArray(new String[0]);
 
         for (int i=0; i<parts.length; i++) {
             String cur = parts[i];

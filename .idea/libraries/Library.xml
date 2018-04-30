@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Library">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/resources/commons-collections4-4.0-alpha1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/commons-lang3-3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/Helper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/jewelcli-0.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/meteor-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/stanford-corenlp-2017-04-14-build.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
