@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d85a604e-ccae-4621-abaa-20221481d1bb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/models/meteor-1.5/paraphrase-en.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/models/ner/english.all.3class.distsim.crf.ser.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/models/pos-tagger/english-left3words-distsim.tagger" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/corpus/wrappers/Amr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/corpus/wrappers/Amr.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Amr.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Amr.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/util/corpus/wrappers/Amr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="87" column="16" lean-forward="true" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+            <state relative-caret-position="680">
+              <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NerServer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/util/server/NerServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -52,10 +61,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2319" />
-    <option name="y" value="112" />
-    <option name="width" value="1384" />
-    <option name="height" value="860" />
+    <option name="x" value="1919" />
+    <option name="width" value="1922" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -63,9 +71,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,7 +81,23 @@
             <path>
               <item name="AmrUtils" type="b2602c69:ProjectViewProjectNode" />
               <item name="AmrUtils" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmrUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmrUtils" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmrUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmrUtils" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmrUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmrUtils" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AmrUtils" type="b2602c69:ProjectViewProjectNode" />
@@ -101,17 +122,33 @@
               <item name="util" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AmrUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmrUtils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/stanford-corenlp-2017-04-14-build.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Data/Dependencies/OpenNMT" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -125,7 +162,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AmrUtils Debug">
+  <component name="RunManager" selected="Compound.AmrUtil">
+    <configuration name="AMR Dev Filter" type="Application" factoryName="Application" folderName="Filter">
+      <option name="MAIN_CLASS_NAME" value="util.apps.AmrUtils" />
+      <module name="AmrUtils" />
+      <option name="PROGRAM_PARAMETERS" value="anonymizeAmrFull true $USER_HOME$/Data/Experiments/Exp_Belle_AMR_2_Text/Output/Preprocess/filter/dev/summary_deft-p2-amr-r1-amrs-dev-proxy.txt.tf" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="AMR Dev No Filter" type="Application" factoryName="Application" folderName="No Filter">
+      <option name="MAIN_CLASS_NAME" value="util.apps.AmrUtils" />
+      <module name="AmrUtils" />
+      <option name="PROGRAM_PARAMETERS" value="anonymizeAmrFull true $USER_HOME$/Data/Experiments/Exp_Belle_AMR_2_Text/Output/Preprocess/no_filter/dev/all_amr-r1-amrs-dev-all.txt.tf" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="AMR Test Filter" type="Application" factoryName="Application" folderName="Filter">
+      <option name="MAIN_CLASS_NAME" value="util.apps.AmrUtils" />
+      <module name="AmrUtils" />
+      <option name="PROGRAM_PARAMETERS" value="anonymizeAmrFull true $USER_HOME$/Data/Experiments/Exp_Belle_AMR_2_Text/Output/Preprocess/filter/test/summary_deft-p2-amr-r1-amrs-test-proxy.txt.tf" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="AMR Test No Filter" type="Application" factoryName="Application" folderName="No Filter">
+      <option name="MAIN_CLASS_NAME" value="util.apps.AmrUtils" />
+      <module name="AmrUtils" />
+      <option name="PROGRAM_PARAMETERS" value="anonymizeAmrFull true $USER_HOME$/Data/Experiments/Exp_Belle_AMR_2_Text/Output/Preprocess/no_filter/test/all_amr-r1-amrs-test-all.txt.tf" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="AMR Training Filter" type="Application" factoryName="Application" folderName="Filter">
+      <option name="MAIN_CLASS_NAME" value="util.apps.AmrUtils" />
+      <module name="AmrUtils" />
+      <option name="PROGRAM_PARAMETERS" value="anonymizeAmrFull true $USER_HOME$/Data/Experiments/Exp_Belle_AMR_2_Text/Output/Preprocess/filter/training/summary_amr-r1-amrs-training-all.txt.tf" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="AMR Training No Filter" type="Application" factoryName="Application" folderName="No Filter">
+      <option name="MAIN_CLASS_NAME" value="util.apps.AmrUtils" />
+      <module name="AmrUtils" />
+      <option name="PROGRAM_PARAMETERS" value="anonymizeAmrFull true $USER_HOME$/Data/Experiments/Exp_Belle_AMR_2_Text/Output/Preprocess/no_filter/training/all_amr-r1-amrs-training-all.txt.tf" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="AmrUtils Debug" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="util.apps.AmrUtils" />
       <module name="AmrUtils" />
@@ -138,20 +247,70 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="AmrUtils Training" type="Application" factoryName="Application" folderName="No Filter">
-      <option name="MAIN_CLASS_NAME" value="util.apps.AmrUtils" />
+    <configuration name="NerServer" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.server.NerServer" />
       <module name="AmrUtils" />
-      <option name="PROGRAM_PARAMETERS" value="anonymizeAmrFull true $USER_HOME$/Data/Experiments/Exp_Belle_AMR_2_Text/Output/Preprocess/no_filter/training/all_amr-r1-amrs-training-all.txt.tf" />
+      <option name="PROGRAM_PARAMETERS" value="4444 true" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="util.apps.*" />
+          <option name="PATTERN" value="util.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
+    <configuration name="Sent Dev Filter" type="Application" factoryName="Application" folderName="Filter">
+      <option name="MAIN_CLASS_NAME" value="util.apps.AmrUtils" />
+      <module name="AmrUtils" />
+      <option name="PROGRAM_PARAMETERS" value="anonymizeText true $USER_HOME$/Data/Experiments/Exp_Belle_AMR_2_Text/Output/Preprocess/filter/dev/summary_amr-r1-amrs-dev-all.txt.sent" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Sent Dev No Filter" type="Application" factoryName="Application" folderName="No Filter">
+      <option name="MAIN_CLASS_NAME" value="util.apps.AmrUtils" />
+      <module name="AmrUtils" />
+      <option name="PROGRAM_PARAMETERS" value="anonymizeText true $USER_HOME$/Data/Experiments/Exp_Belle_AMR_2_Text/Output/Preprocess/no_filter/dev/summary_amr-r1-amrs-dev-all.txt.sent" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Sent Test Filter" type="Application" factoryName="Application" folderName="Filter">
+      <option name="MAIN_CLASS_NAME" value="util.apps.AmrUtils" />
+      <module name="AmrUtils" />
+      <option name="PROGRAM_PARAMETERS" value="anonymizeText true $USER_HOME$/Data/Experiments/Exp_Belle_AMR_2_Text/Output/Preprocess/filter/test/summary_amr-r1-amrs-test-all.txt.sent" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Sent Test No Filter" type="Application" factoryName="Application" folderName="No Filter">
+      <option name="MAIN_CLASS_NAME" value="util.apps.AmrUtils" />
+      <module name="AmrUtils" />
+      <option name="PROGRAM_PARAMETERS" value="anonymizeText true $USER_HOME$/Data/Experiments/Exp_Belle_AMR_2_Text/Output/Preprocess/no_filter/test/summary_amr-r1-amrs-test-all.txt.sent" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Sent Training Filter" type="Application" factoryName="Application" folderName="Filter">
+      <option name="MAIN_CLASS_NAME" value="util.apps.AmrUtils" />
+      <module name="AmrUtils" />
+      <option name="PROGRAM_PARAMETERS" value="anonymizeText true $USER_HOME$/Data/Experiments/Exp_Belle_AMR_2_Text/Output/Preprocess/filter/training/summary_amr-r1-amrs-training-all.txt.sent" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Sent Training No Filter" type="Application" factoryName="Application" folderName="No Filter">
+      <option name="MAIN_CLASS_NAME" value="util.apps.AmrUtils" />
+      <module name="AmrUtils" />
+      <option name="PROGRAM_PARAMETERS" value="anonymizeText true $USER_HOME$/Data/Experiments/Exp_Belle_AMR_2_Text/Output/Preprocess/no_filter/training/summary_amr-r1-amrs-training-all.txt.sent" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="AmrUtil" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <toRun type="Application" name="AMR Dev Filter" />
+      <toRun type="Application" name="AMR Dev No Filter" />
+      <toRun type="Application" name="AMR Test Filter" />
+      <toRun type="Application" name="AMR Test No Filter" />
+      <toRun type="Application" name="AMR Training Filter" />
+      <toRun type="Application" name="AMR Training No Filter" />
+      <toRun type="Application" name="Sent Dev Filter" />
+      <toRun type="Application" name="Sent Dev No Filter" />
+      <toRun type="Application" name="Sent Test Filter" />
+      <toRun type="Application" name="Sent Test No Filter" />
+      <toRun type="Application" name="Sent Training Filter" />
+      <toRun type="Application" name="Sent Training No Filter" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -192,8 +351,21 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.AmrUtils Training" />
+      <item itemvalue="Application.Sent Training Filter" />
+      <item itemvalue="Application.AMR Training Filter" />
+      <item itemvalue="Application.AMR Dev Filter" />
+      <item itemvalue="Application.AMR Test Filter" />
+      <item itemvalue="Application.Sent Test Filter" />
+      <item itemvalue="Application.Sent Dev Filter" />
+      <item itemvalue="Application.AMR Training No Filter" />
+      <item itemvalue="Application.AMR Dev No Filter" />
+      <item itemvalue="Application.AMR Test No Filter" />
+      <item itemvalue="Application.Sent Training No Filter" />
+      <item itemvalue="Application.Sent Test No Filter" />
+      <item itemvalue="Application.Sent Dev No Filter" />
       <item itemvalue="Application.AmrUtils Debug" />
+      <item itemvalue="Application.NerServer" />
+      <item itemvalue="Compound.AmrUtil" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -214,12 +386,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525091764579</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix bug where parsing failed for concept that have quote with space in it.">
+      <created>1525103429384</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525103429384</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="0" width="1922" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -227,46 +405,27 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053704" side_tool="true" weight="0.32900432" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946293" weight="0.32900432" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25349087" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39935064" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32900432" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25349087" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26476908" />
+      <window_info anchor="right" id="LuaJ" order="4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,7 +451,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update gitignore" />
+    <MESSAGE value="Fix bug where parsing failed for concept that have quote with space in it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bug where parsing failed for concept that have quote with space in it." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -309,18 +469,6 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/util/corpus/wrappers/Amr.java</url>
-          <line>132</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/util/corpus/wrappers/Amr.java</url>
-          <line>83</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -331,10 +479,31 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/util/corpus/wrappers/Amr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2120">
+          <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/corpus/wrappers/Amr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2120">
+          <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/corpus/wrappers/Amr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2120">
+          <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/corpus/wrappers/Amr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2000">
@@ -348,9 +517,6 @@
           <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/corpus/wrappers/AmrLinearizedSentence.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -372,9 +538,6 @@
           <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/corpus/wrappers/AmrLinearizedSentence.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -571,26 +734,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Library.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/AmrUtils.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml" />
     <entry file="file://$PROJECT_DIR$/settings.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -636,9 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sample-data/sample-amr.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/corpus/wrappers/AmrLinearize.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -653,13 +794,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sample-data/sample-amr.txt.alignments">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/corpus/wrappers/Amr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="87" column="16" lean-forward="true" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+        <state relative-caret-position="680">
+          <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/server/NerServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
         </state>
       </provider>
     </entry>
